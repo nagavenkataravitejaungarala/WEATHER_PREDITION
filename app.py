@@ -13,7 +13,7 @@ def image_to_base64(image_path):
     return img_base64
 
 # Path to your local background image
-image_path = 'static/images/background_light.jpg'  # Update this path to your image
+image_path = 'background_light.jpg'  # Update this path to your image
 
 # Convert the image to base64
 img_base64 = image_to_base64(image_path)
